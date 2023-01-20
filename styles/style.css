@@ -76,6 +76,43 @@ header{
     padding: 5px 35px
 }
 
+/* Main Area Styles */
+
+/* Site-info Section Styles */
+
+.site-info{
+    margin: 50px 120px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.site-info-item{
+    text-align: center;
+}
+
+.site-info-icon img{
+    width: 20%;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+
+.info-item-title{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.info-item-details{
+    font-size: 16px;
+    color: #6B6B6B;
+}
 
 
 /* Responsive Layout Styles */
@@ -112,4 +149,16 @@ header{
     }    
 
     /* Main Area Responsive Styles */
+
+    /* Site-info Section Styles */
+    .site-info{
+        margin: 20px 0px;
+    }
+
+    .info-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
 }
